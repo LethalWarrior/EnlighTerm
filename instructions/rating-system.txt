@@ -1,0 +1,17 @@
+Submission Anda akan dinilai oleh reviewer dengan penilaian bintang berskala 1-5 berdasarkan dari parameter yang ada. Anda dapat menerapkan beberapa saran untuk mendapatkan nilai tinggi, berikut sarannya:
+
+    1. Menerapkan tampilan aplikasi yang menarik:
+        - Memiliki pemilihan warna yang pas dengan tema aplikasi (dalam memilih warna, Anda dapat memanfaatkan tools pemilihan warna seperti colorhunt.co).
+        - Tata letak elemen yang pas. Contoh : Tidak ada konten yang bertumpuk.
+        - Penggunaan font yang pas dengan tema.
+        - Penerapan padding, margin yang pas.
+        - Responsif pada seluruh ukuran layar perangkat.
+    2. Menggunakan package pihak ke-3 yang di-install melalui package manager (bukan CDN), contohnya:
+        - Lodash
+        - Axios
+        - JQuery
+        - dsb.
+    3. Menuliskan kode dengan bersih dan konsisten. Anda bisa memanfaatkan Linter seperti ESLint dalam menjaga gaya penulisan kode.
+    4. Bereksplorasi pada penerapan webpack. Seperti:
+        - Menggunakan Loader atau Plugin di luar yang diajarkan pada modul.
+        - Menerapkan optimasi bundle seperti minifying atau split chunk.
