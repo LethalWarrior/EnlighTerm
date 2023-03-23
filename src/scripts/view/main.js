@@ -1,4 +1,4 @@
-import API from '../api';
+import API from '../API';
 
 const main = () => {
   const searchElement = document.querySelector('search-text-field');
