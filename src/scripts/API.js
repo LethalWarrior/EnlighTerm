@@ -4,10 +4,8 @@ class API {
       .then((response) => {
         if (response.status === 200) {
           return response.json();
-        } else if (response.status === 404) {
-          return Promise.reject(`${term} is not found`);
         }
-        return Promise.reject(`An error has occured!`);
+        return Promise.reject(`${term} is not found`);
       })
       .then((responseJSON) => {
         return Promise.resolve(responseJSON);
