@@ -17,7 +17,7 @@ class SearchTextField extends HTMLElement {
     <input
         id="searchTextField"
         type="text"
-        class="w-full md:w-1/2 lg:w-1/3 border-none p-2 md:p-4 bg-white border-2 rounded-xl text-gray-500 mb-10"
+        class="w-full md:w-1/2 lg:w-1/3 border-none p-2 md:p-4 bg-white border-2 rounded-xl text-gray-500"
         placeholder="Search for a word / term"
         type="search"
     />
